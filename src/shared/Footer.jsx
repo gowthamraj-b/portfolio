@@ -34,7 +34,7 @@ const Footer = () => {
 
       {/* copyright text */}
       <div>
-        <p className='md:my-10 py-10 md:py-0 text-sm leading-7 text-[#eee] text-center'>Made by <a href="" className='underline'>Gowtham Raj (legend)</a></p>
+        <p className='md:my-10 py-10 md:py-0 text-sm leading-7 text-[#eee] text-center'>Made by <a href="" className='underline'>Gowtham Raj</a></p>
       </div>
     </div>
   );
