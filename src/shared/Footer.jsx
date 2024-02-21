@@ -18,12 +18,12 @@ const Footer = () => {
           </p>
         </div>
         {/* social icons */}
-        <div className='my-3 text-center'>
-          <h4 className="text-white font-bold text-2xl tracking-wide ">
+        <div className='my-3'>
+          <h4 className="text-white font-bold text-2xl tracking-wider ml-3">
             SOCIAL
           </h4>
           <div className='mt-5 flex gap-3'>
-            <a href="" className='ml-1'><img src={linkedinIcon} alt="" className='w-7 h-7'/></a>
+            <a href="" className=''><img src={linkedinIcon} alt="" className='w-7 h-7'/></a>
             <a href="https://github.com/gowthamrajlegend/" className='ml-1'><img src={githubIcon} alt="" className='w-7 h-7'/></a>
             <a href="https://www.instagram.com/gowthamrajlegend/" className='ml-1'><img src={instaIcon} alt="" className= 'm w-10 h-7'/></a>
           </div>

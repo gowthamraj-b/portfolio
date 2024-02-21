@@ -28,7 +28,7 @@ const About = () => {
                     <div className='md:w-10/12 text-lg text-[#666] mb-8'>
                     <p className='mb-5'>I'm a <strong>Web Developer</strong> building the Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.</p>
 
-                    <p className='mb-5'>I also like sharing content related to the stuff that I have learned in <strong>Web Development.</strong> Feel free to Connect or Follow me on my <a href="" className='text-secondary font-bold underline'>Github</a> and <a href="" className='text-secondary font-bold underline'>Instagram</a>   where I post useful content related to Web Development and Programming</p>
+                    <p className='mb-5'>I also like sharing content related to the stuff that I have learned in <strong>Web Development.</strong> Feel free to Connect or Follow me on my <a href="https://github.com/gowthamrajlegend/" className='text-secondary font-bold underline'>Github</a> and <a href="https://www.instagram.com/gowthamrajlegend/" className='text-secondary font-bold underline'>Instagram</a>   where I post useful content related to Web Development and Programming</p>
 
                     <p className='mb-5'>I'm open to <strong>Job</strong> opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <strong>contact</strong> me.</p>
                     </div>

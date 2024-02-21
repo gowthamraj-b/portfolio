@@ -8,8 +8,15 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
+// scroll
+import { Link } from "react-scroll";
+
 
 const Home = () => {
+  let Links = [
+    { name: "Projects", link: "projects" },
+  ];
+
   return (
     <div className="hero my-8 md:py-8 px-7 relative" id="home">
       {/* hero info */}
@@ -46,15 +53,21 @@ const Home = () => {
            <br /> 
            Step into the carear of AI and ML
           </p>
-          <a href="#projects" 
-          variants={fadeIn("up", 0.3)}
-          initial="hidden"
-          whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}  
-          >
-          <button className="btn py-4 px-16">PROJECTS</button>
-          </a>
-
+          
+          {Links.map((link) => (
+              <Link
+                to={link.link}
+                activeClass="active"
+                smooth={true}
+                spy={true}
+                offset={0}
+              >
+          <button className="btn py-4 px-16" 
+          >PROJECTS</button>
+              </Link>
+          ))}
+          
+          
 
         </motion.div>
       </div>

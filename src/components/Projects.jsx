@@ -15,7 +15,7 @@ const Projects = () => {
             <div>
                 {projects.map((project) => <div key={project.id}>
                     <motion.div 
-                    variants={fadeIn("up", 0.3)}
+                    variants={fadeIn("up", 0.2)}
                     initial="hidden"
                     whileInView={"show"}
                     viewport={{ once: true, amount: 0.2 }}
@@ -26,9 +26,9 @@ const Projects = () => {
                         <div className="md:w-10/12 text-center md:text-left px-2">
                         <h4 className="text-2xl font-bold mb-6">{project.name}</h4>
                         <p className="text-lg text-[#666] leading-6 mb-6">{project.description}</p>
-                        <div className="space-x-4 space-y-4 min-h-1">
-                        <a href={project.page}><button className="btn py-2 px-6 ">View</button></a>
-                        <a href={project.view}><button className="btn py-2 px-6 ">Source Code</button></a>
+                        <div className="space-x-4 space-y-4 text-center">
+                            <a href={project.page}><button className="btn py-2 px-5 mb-2">View</button></a>
+                            <a href={project.view}><button className="btn py-2 px-5">Source Code</button></a>
                         </div>
                         </div>
                     </motion.div>
