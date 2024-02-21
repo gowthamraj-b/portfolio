@@ -44,7 +44,7 @@ const Header = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                offset={0}
+                offset={-100}
                 className="text-light hover:text-secondary duration-500 uppercase"
               >
                 {link.name}
