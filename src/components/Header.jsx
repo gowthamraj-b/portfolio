@@ -16,6 +16,10 @@ const Header = () => {
   ];
   let [open, setOpen] = useState(false);
 
+  const closeMenu = () => {
+    setOpen(false);
+  }
+
   return (
     <div className="w-full relative z-[100]">
       <div className="md:flex items-center justify-between bg-white py-4 md:px-14 px-7 fixed top-0 left-0 right-0 shadow-sm">
@@ -29,7 +33,7 @@ const Header = () => {
           onClick={() => setOpen(!open)}
           className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 text-primary"
           >
-          {open ? <XMarkIcon /> : <Bars3Icon />}
+          {open ? <XMarkIcon  /> : <Bars3Icon  />}
         </div>
         {/* linke items */}
         <ul
@@ -46,6 +50,7 @@ const Header = () => {
                 spy={true}
                 offset={-100}
                 className="text-light hover:text-secondary duration-500 uppercase"
+                onClick={closeMenu}
               >
                 {link.name}
               </Link>
