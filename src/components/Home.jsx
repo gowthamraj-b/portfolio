@@ -51,7 +51,7 @@ const Home = () => {
           <p className="text-light text-xl my-8">
           A Web Developer building the Websites and
            <br /> 
-           Step into the carear of AI and ML
+           Step into the career of AI and ML
           </p>
           
           {Links.map((link) => (
