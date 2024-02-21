@@ -60,7 +60,7 @@ const Home = () => {
                 activeClass="active"
                 smooth={true}
                 spy={true}
-                offset={0}
+                offset={-50}
               >
           <button className="btn py-4 px-16" 
           >PROJECTS</button>

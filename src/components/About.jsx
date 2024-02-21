@@ -42,7 +42,6 @@ const About = () => {
                 initial="hidden"
                 whileInView={"show"}
                 viewport={{ once: false, amount: 0.5 }}
-
                 className='md:w-1/2 my-8'>
                     <h4 className='text-2xl font-bold mb-8'>My Skills</h4>
                     <div className='flex flex-wrap gap-3 md:w-10/12'>
