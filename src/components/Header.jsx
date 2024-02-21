@@ -13,7 +13,6 @@ const Header = () => {
     { name: "About me", link: "about" },
     { name: "Projects", link: "projects" },
     { name: "Contact", link: "contact" },
-    { name: "", link: "" },
   ];
   let [open, setOpen] = useState(false);
 
